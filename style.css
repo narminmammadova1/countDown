@@ -1,0 +1,63 @@
+body{
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgb(35, 35, 36);
+    margin: auto 0;
+
+}
+p,h1,h2{
+    text-align: center;
+    color: aliceblue;
+    
+}
+p{font-size: 100px;
+}
+h1{font-size: 60px;
+    color: aliceblue;}
+h2{font-size: 40px;
+}
+
+.card{
+margin-left: 150px;    background-color: rgb(55, 11, 95);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20px; */
+}
+
+.clock span {
+    font-size: 80px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+   color:#fff
+}
+.clock span:after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#hrs::after {
+    content: "HOURS";
+}
+#min::after {
+    content: "MINS";
+}
+#sec::after {
+    content: "SEC";
+}
+#days::after{
+    content: "DAYS";
+    color: brown;
+
+  
+}
+#days{margin-left: 150px;
+    margin-right: 80px;
+    color: brown;
+}
+
